@@ -1,0 +1,465 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 10px 10%;
+    font-size: 2rem;
+    width: 29%;
+    height: 100%;
+    position: fixed;
+}
+
+    .header .nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70%;
+        justify-content: space-between;
+    }
+
+        .header .nav .tw {
+            color: #4899fe
+        }
+
+        .header .nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.4rem;
+            align-items: center;
+            padding: 8px 25px 23px 8px;
+            max-width: fit-content;
+        }
+
+    .header a:hover {
+        background-color: #ececec;
+        border-radius: 25px;
+        text-align: center
+    }
+
+
+
+    .header i {
+        margin-right: 8px;
+        font-size: 2rem
+    }
+
+    .header .nav a:first-child {
+        padding: 8px
+    }
+
+        .header .nav a:first-child i {
+            margin: 0
+        }
+
+    .header input[type="button"] {
+        background-color: #4899fe;
+        width: 90%;
+        height: 55px;
+        border: 1px solid #4899fe;
+        border-radius: 40px;
+        color: white;
+        font-size: 1.2rem;
+        padding: 10px;
+        align-content: center;
+        margin-top: 20px;
+        cursor: pointer
+    }
+
+
+
+    .header .acount {
+        width: 100%;
+        height: 30%;
+        padding-top: 130px
+    }
+
+        .header .acount a {
+            display: flex;
+            text-decoration: none;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 10px 8px 15px;
+            margin-left: 15px
+        }
+
+        .header .acount .info {
+            font-size: 1.5rem;
+            line-height: 20px;
+            margin-right: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+        }
+
+
+
+            .header .acount .info span:first-child {
+                font-weight: 500;
+                color: black
+            }
+
+            .header .acount .info span:last-child {
+                color: #494848
+            }
+
+        .header .acount .image-acc {
+            height: 50px;
+            width: 88px;
+            border-radius: 50%;
+            margin-right: 15px
+        }
+
+.container {
+    width: 71%;
+    height: 100%;
+    margin-left: 29%
+}
+
+    .container .main {
+        display: flex;
+        width: 100%
+    }
+
+    .container .contant {
+        width: 50%;
+        border-left: 1px solid #ececec;
+        border-right: 1px solid #ececec
+    }
+
+        .container .contant .nav {
+            margin-bottom: 60px
+        }
+
+            .container .contant .nav a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 50px;
+                width: 36%;
+                padding: 0 20px;
+                font-size: 1.8rem;
+                font-weight: 500;
+                color: black;
+                text-decoration: none;
+                position: fixed;
+                top: 0;
+                background-color: white;
+            }
+
+            .container .contant .nav i:hover {
+                background-color: #ececec;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+
+        .container .contant .text {
+            display: flex;
+            width: 100%;
+            padding: 4px 16px;
+            height: 120px
+        }
+
+            .container .contant .text img {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                cursor: pointer
+            }
+
+            .container .contant .text .tweet {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin-left: 12px;
+                padding-top: 4px;
+                width: 100%
+            }
+
+                .container .contant .text .tweet input[type="text"] {
+                    border: none;
+                    background-color: white;
+                    height: 30px;
+                    font-size: 1.4rem;
+                    color: black;
+                    outline: none;
+                    width: 100%;
+                }
+
+            .container .contant .text .nwe-tweet {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 60px;
+                width: 100%
+            }
+
+.nwe-tweet ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+    .nwe-tweet ul li a {
+        margin-left: 12px;
+        color: deepskyblue;
+        cursor: pointer;
+        font-size: 1.5rem
+    }
+
+.nwe-tweet input[type="button"] {
+    background-color: #4899fe;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #4899fe;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    align-content: center;
+    cursor: pointer
+}
+
+
+.new {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    padding: 12px 16px 0 16px;
+    border-top: 1px solid #ececec;
+    cursor: pointer
+}
+
+    .new img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%
+    }
+
+.tweet-deatl {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 12px
+}
+
+    .tweet-deatl .user {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 10px
+    }
+
+        .tweet-deatl .user span:first-child {
+            color: black;
+            font-weight: 500;
+            font-size: 1.4rem
+        }
+
+    .tweet-deatl .text {
+        width: 100%;
+        font-size: 1.5rem
+    }
+
+    .tweet-deatl .icon {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 15px 0;
+        padding-right: 50px
+    }
+
+.saide {
+    width: 50%;
+    padding: 0 2%;
+}
+
+.serch {
+    position: sticky;
+    top: 0;
+    display: flex;
+    max-width: 355px;
+    height: 55px;
+    padding-top: 5px;
+}
+
+    .serch input[type="search"] {
+        background-color: #ececec;
+        border: none;
+        width: 339px;
+        height: 61px;
+        border-radius: 34px;
+        padding: 10px 10px 10px 40px;
+        color: black;
+        outline: none;
+        font-size: 1.3rem;
+        margin-bottom: 40px
+    }
+
+    .serch i {
+        transform: translate(26px, 22px);
+        font-size: 1.3rem;
+    }
+
+.trand {
+    height: 590px;
+    width: 339px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #ececec;
+    margin: 40px 20px;
+    padding: 10px 10px 10px 40px;
+}
+
+.top {
+    margin-bottom: 15px;
+    cursor: pointer
+}
+
+
+
+    .top .catogray {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 40px 10px 0px;
+        color: #817e7e;
+    }
+
+    .top p:last-child {
+        padding-top: 4px;
+        font-size: 1rem;
+        color: #817e7e;
+    }
+
+.trand a {
+    color: #4899fe;
+    font-size: 1.3rem;
+    text-decoration: none
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    width: 339px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #ececec;
+    margin: 40px 20px;
+    padding: 10px 10px 10px 40px;
+}
+
+    .follow img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%
+    }
+
+.frind {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 28px 10px 0;
+}
+
+    .frind input[type="button"] {
+        background-color: black;
+        border-radius: 30px;
+        color: white;
+        font-size: 1.4rem;
+        padding: 10px;
+        cursor: pointer
+    }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    cursor: pointer
+}
+
+    .info span:first-child {
+        font-weight: 500;
+        font-size: 1.3rem
+    }
+
+    .info span:last-child {
+        color: #817e7e
+    }
+
+@media (max-width:1220px) {
+    .header {
+        width: 10%;
+        padding: 10px 0;
+    }
+
+        .header span {
+            display: none
+        }
+
+        .header input[type="button"] {
+        }
+
+        .header .acount {
+            display: flex;
+            justify-content: center
+        }
+
+            .header .acount i {
+                display: none
+            }
+
+        .header .nav {
+            align-items: center
+        }
+
+    .container .contant .nav a {
+        width: 70%
+    }
+
+    .nav a, .acount a {
+        padding: 10px 10px
+    }
+
+        .nav a i {
+            margin-right: 0
+        }
+
+    .container {
+        margin-left: 10%
+    }
+}
+
+@media(max-width:1000px) {
+    .saide {
+        display: none
+    }
+
+    .container .contant {
+        width: 100%;
+        border-right: none
+    }
+
+    .header .acount .image-acc {
+        margin-left: 50px
+    }
+}
